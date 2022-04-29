@@ -1,0 +1,83 @@
+#head{
+    background-color: white;
+    color: black;
+    position: relative;
+    left: 48%;
+    box-shadow: 5px 10px #e3dfdf;
+}
+
+
+#about{
+    background-color: rgb(35, 35, 91);
+    height: 400px;
+    color: white;
+    position: relative;
+    bottom:20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#footer-text{
+    display: inline-block;
+    width: 400px;
+    position: absolute;
+    left: 60%; 
+    top: 5%;
+
+} 
+
+
+#img-1{
+    position: absolute;
+    left: 30%;
+    
+    height:170px;
+    width: 370px;
+    border-radius: 20px;
+    z-index: 0;
+    box-shadow: 5px 10px #e3dfdf;
+}
+
+#img-2{
+    position: absolute;
+    left: 30%;
+    height:170px;
+    width: 370px;
+    border-radius: 20px;
+    z-index: 0;
+   top: 60%;
+   box-shadow: 5px 10px #e3dfdf;
+}
+
+.place-details{
+    height: 170px;
+    width: 370px;
+    border-radius: 20px;
+background-color: white;
+  padding: 10px;
+  box-shadow: 5px 10px #e3dfdf;
+  z-index: 1;
+  bottom: 50px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    position: relative;
+    left: 10px;
+    border-radius: 10px;
+    height: 30px;
+    border: hidden;
+}
+
+@media screen and (max-width:413px){
+    #head{
+        background-color:white;
+        color: black;
+        position: relative;
+        left: 68%;
+       
+    }
+   
+}
+
